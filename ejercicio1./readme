@@ -1,4 +1,4 @@
-Punto 1: Comparación de Enfoques para el Cálculo del Factorial
+📌Punto 1: Comparación de Enfoques para el Cálculo del Factorial
 ------------------------------------------------------------------------------
 Este repositorio contiene el desarrollo de un ejercicio práctico que consiste en implementar el cálculo del factorial de un número entero utilizando dos enfoques diferentes en el lenguaje de
 programación C: un enfoque iterativo y un enfoque recursivo. Adicionalmente, se realiza una comparación de desempeño entre ambas implementaciones y un análisis sobre cómo el uso del paradigma funcional
