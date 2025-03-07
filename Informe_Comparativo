@@ -12,9 +12,4 @@ puras, recursión de cola y evaluación perezosa.
 3.Comparacion de uso de memoria
     La versión recursiva necesita más memoria porque cada llamada crea un nuevo marco en la pila.  
     La iterativa usa solo una variable acumuladora, lo que la hace más eficiente.
-4.Como se podria optimizar el programa?
-    -Funciones puras: Hacer que la función no dependa de variables externas. Esto hace que el código sea más predecible.
-    -Recursión de cola: Si la recursión se escribe bien, se puede optimizar para que no llene la pila (aunque C no tiene optimización de cola como otros lenguajes).
-    -Reducción (fold): En lenguajes funcionales como Haskell, podríamos hacer algo como foldl (*) 1 [1..n].
-    -Evaluación perezosa: Se puede generar solo lo que se necesita, sin calcular de más. Esto ayuda a ahorrar memoria.
-    -Inmutabilidad: Evitar modificar variables hace que el código sea más seguro y fácil de optimizar.
+
