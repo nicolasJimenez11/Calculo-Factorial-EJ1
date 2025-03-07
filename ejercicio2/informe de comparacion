@@ -1,0 +1,22 @@
+omparación de Paradigmas: 
+
+ 1. Claridad y legibilidad
+Python sigue un enfoque paso a paso con bucles e intercambios, lo que puede ser más intuitivo para principiantes. Haskell, en cambio, usa funciones de orden alto (`sortBy` y `comparing`), lo que hace el código más conciso y fácil de leer.
+
+ 2. Expresividad y abstracción
+En Python, el programador controla cada detalle del ordenamiento. En Haskell, simplemente se describe el criterio de orden, haciendo el código más declarativo y menos propenso a errores.
+
+ 3. Mutabilidad vs. Inmutabilidad
+Python modifica la lista original, lo que puede generar efectos secundarios. Haskell trabaja con datos inmutables, lo que evita cambios inesperados y facilita el debug.
+
+ 4. Manejo del estado
+Python cambia el estado del programa al modificar la lista. Haskell no cambia el estado, sino que devuelve una nueva lista ordenada, haciendo el código más seguro.
+
+ 5. Mantenimiento y extensión
+Modificar el criterio de orden en Python requiere cambios en la lógica del bucle. En Haskell, basta con ajustar la función de comparación, lo que hace que el código sea más flexible y mantenible.
+
+ 6. Eficiencia
+Python usa Bubble Sort (O(n²)), que es ineficiente para grandes listas. Haskell usa `sortBy`, que internamente emplea algoritmos más eficientes (O(n log n)). Además, Haskell es compilado, lo que le da una ventaja en rendimiento.
+
+Conclusión
+Python es más fácil para empezar, pero menos eficiente y más propenso a errores. Haskell es más conciso, seguro y eficiente, aunque requiere una curva de aprendizaje. Para este problema, Haskell ofrece una solución más clara y eficiente.
