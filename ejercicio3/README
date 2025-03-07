@@ -1,1 +1,2 @@
-
+ Punto 3: Gestión Dinámica y Optimización de Memoria para Registros de Estudiantes
+Estás desarrollando un sistema de gestión de estudiantes para una universidad. Cada estudiante tiene un registro que incluye su nombre, apellido, edad, número de identificación y un conjunto de calificaciones correspondientes a sus materias. Debido a las limitaciones de memoria en el sistema, es fundamental optimizar el uso de memoria al almacenar estos registros.
