@@ -1,0 +1,23 @@
+def bubble_sort(students):
+    n = len(students)  # Obtener el número de estudiantes
+    for i in range(n - 1):  # Recorrer la lista varias veces
+        for j in range(n - 1):  # Comparar cada par de elementos
+            if students[j][1] < students[j + 1][1]:  # Comparar calificaciones
+                students[j], students[j + 1] = students[j + 1], students[j]  # Intercambiar si es necesario
+            elif students[j][1] == students[j + 1][1] and students[j][0] > students[j + 1][0]:  # Comparar nombres
+                students[j], students[j + 1] = students[j + 1], students[j]
+
+# Lista de estudiantes (nombre, calificación)
+students = [
+    ("Ana", 85),
+    ("Pedro", 90),
+    ("Luis", 85),
+    ("Maria", 95),
+    ("Jose", 90),
+    ("Lucia", 85)
+]
+
+bubble_sort(students)  # Llamar a la función para ordenar la lista
+
+for student in students:  # Imprimir la lista ordenada
+    print(student)
